@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+
+nav {
+    background-color: rgb(93, 20, 93);
+}
+
+/* *****************home page ***************** */
+
+.hireMeButton {
+    padding: 10px 20px;
+    background-color: rgb(242, 71, 71);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.hireMeButton:hover {
+    background-color: rgb(228, 31, 31);
+    padding: 13px 23px;
+}
+
+#hero {
+    background: url("https://files.123freevectors.com/wp-content/solidbackground/very-dark-purple-free-solidcolor-background.jpg");
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.resume_button {
+    padding: 15px;
+    background-color: rgb(242, 71, 71);
+    color: white;
+    border: none;
+    margin-top: 50px;
+    border-radius: 3px;
+}
+
+.resume_button:hover {
+    background-color: rgb(228, 31, 31);
+    padding: 17px 20px;
+}
+
+
+.contact_button {
+    background-color: rgb(93, 20, 93);
+    color: white;
+    padding: 15px 40px;
+    margin-top: 50px;
+    border: none;
+    margin-bottom: 150px;
+    border-radius: 3px;
+}
+
+.contact_button:hover {
+    background-color: rgb(118, 23, 118);
+    padding: 17px 42px;
+}
+
+
+
+.heroLogo {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    width: 100%;
+    cursor: pointer;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translate(0px);
+    }
+
+    100% {
+        transform: translateY(50px);
+    }
+}
+
+
+/* ******************aboutpage ******************* */
+
+.aboutHeroImage {
+    width: 100%;
+    height: 660px;
+}
+
+#aboutHero {
+    background-color: rgb(227, 215, 239);
+}
+
+/* ************Service ********* */
+
+.service_section {
+    background-color: rgb(227, 215, 239);
+}
+
+.service-card:hover {
+    background-color: rgb(93, 20, 93);
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* ************** contact ************ */
+
+
+/*contact*/
+
+.f {
+    background: url(/images/contactHeroImage.webp);
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.contact_card {
+
+    margin-bottom: 20px;
+    border-radius: 15px;
+    margin-right: 50px;
+    box-shadow: 1px 1px 3px 3px rgb(184, 171, 171);
+}
+
+
+
+.contact_card:hover {
+    padding: 25px 25px;
+    cursor: pointer;
+}
+
+/* ************blog ************* */
+
+
+
+
+.mediaHeading {
+
+    padding-top: 30px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+    color: rgb(93, 20, 93);
+    font-weight: 600;
+}
+
+
+.mediaPara {
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-right: 5px;
+    margin-top: 10px;
+    text-align: justify;
+
+}
+
+
+.blogCard:hover {
+    cursor: pointer;
+}
+
+.blogContainer {
+    background: url(https://wallpapers.com/images/file/work-background-q4atfumnlj9enb4n.jpg
+);
+    width: 100%;
+    height: 650px;
+}
+
+/* ***********login page *********** */
+
+#loginButton {
+    background-color: rgb(93, 20, 93);
+    color: white;
+}
+
+#loginButton:hover {
+    padding: 10px 25px;
+    background-color: rgb(69, 13, 69);
+}
+
+
+/* *********footer************ */
+footer {
+    padding: 40px 120px;
+    background-color: #f6e6e6;
+    height: 150px;
+}
+
+.privacyAndContact{
+    color: rgb(93, 20, 93);
+}
+
+
+.copyright h2 {
+    color: rgb(93, 20, 93);
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
