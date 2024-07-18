@@ -96,7 +96,7 @@ class FrontController {
                         })
                         await result.save()
                         req.flash('success', 'Registration Successfully! Please Login..')
-                        res.redirect('/login')
+                        res.redirect('/')
                     } else {
                         req.flash('error', 'Password and Confirm Password is incorrect!')
                         res.redirect('/register')
@@ -125,12 +125,12 @@ class FrontController {
                 res.redirect('/home')
             } else {
                 req.flash('error', 'Email and Password is incorrect')
-                res.redirect('/login')
+                res.redirect('/')
             }
             res.redirect('/home')
         } else {
             req.flash('error', 'You are not Register User! Please Register')
-            res.redirect('/login')
+            res.redirect('/')
         }
         } catch (error) {
             console.log(error);

@@ -15,7 +15,7 @@ route.get('/blog', FrontController.blog);
 
 route.get('/hire', FrontController.hire);
 
-route.get('/login', FrontController.login);
+route.get('/', FrontController.login);
 
 route.get('/register', FrontController.register);
 
