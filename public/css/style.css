@@ -38,6 +38,7 @@ nav {
     height: 100%;
     width: 100%;
     color: white;
+
 }
 
 .resume_button {
@@ -194,11 +195,50 @@ nav {
 }
 
 
+
+@media (max-width: 768px) {
+    .homeSectionHeading{
+        font-size: 60px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .serviceContainerHeading{
+        font-size: 40px;
+    }
+ 
+}
+
+
+@media (max-width: 300px) {
+
+    .homeSectionHeading {
+        font-size: 30px;
+    }
+
+}
+@media (min-width: 768px) {
+
+    .homeSectionHeading{
+        font-size: 100px;
+    }
+
+  .contact_button{
+    display: flex;
+  }
+
+  .resume_button{
+    display: flex;
+  }
+    
+}
+
+
 /* *********footer************ */
 footer {
     padding: 40px 120px;
     background-color: #f6e6e6;
-    height: 150px;
+   
 }
 
 .privacyAndContact{
